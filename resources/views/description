@@ -1,0 +1,22 @@
+websocket is working with pub sub pattern
+pub sub is use for broadcat the multiple use send message
+
+rpc - remote procedure call
+rpc is two way communication
+
+channel in laravel - public presence private
+
+composer require beyondcode/laravel-websockets
+php artisan vendor:publish
+php artisan migrate
+composer require pusher/pusher-php-server
+php aritsan websockets:serve
+npm i laravel-echo pusher-js
+npm init -y
+npm install laravel-mix --save-dev
+touch webpack.mix.js
+add in package.json - "watch": "mix watch" in scripts for npm run watch
+
+ssl for security purpose
+
+reference - https://www.youtube.com/watch?v=AUlbN_xsdXg
